@@ -1,29 +1,47 @@
 $(document).ready(function(){
-<<<<<<< HEAD
-  alert("Welcome.")
-=======
   alert("Welcome to the Tic-Tac-Thunderdome.")
->>>>>>> c7e2f66107c0a4a6d805478bc4f057d9f251d3e2
-});
 
-$(document).ready(function(){
-  $(".row1").click(function(event){
-<<<<<<< HEAD
-    $(".row1").css("background","blue")
-  });
-});
+  if($("checkbox").checked){
+      $(".box1").click(function(event){
+        $(".box1").css("background","blue")
+      })
+  }else($(".box1").click(function(event){
+      $(".box1").css("background","red")
+  }));
 
-$(document).ready(function(){
-  $(".row2").click(function(event){
-    $(".row2").css("background","blue")
+  $(".box2").click(function(event){
+    $(".box2").css("background","blue")
   });
-});
+  $(".box2").click(function(event){
+    $(".box2").css("background","red")
+  });
 
-$(document).ready(function(){
-  $(".row3").click(function(event){
-    $(".row3").css("background","blue")
-=======
-    $(".row1").css("background-color","yellow")
->>>>>>> c7e2f66107c0a4a6d805478bc4f057d9f251d3e2
+  $(".box3").click(function(event){
+    $(".box3").css("background","blue")
   });
+
+  $(".box4").click(function(event){
+    $(".box4").css("background","blue")
+  });
+
+  $(".box5").click(function(event){
+    $(".box5").css("background","blue")
+  });
+
+  $(".box6").click(function(event){
+      $(".box6").css("background","blue")
+  });
+
+  $(".box7").click(function(event){
+    $(".box7").css("background","blue")
+  });
+
+  $(".box8").click(function(event){
+    $(".box8").css("background","blue")
+  });
+
+  $(".box9").click(function(event){
+    $(".box9").css("background","blue")
+  });
+
 });
