@@ -44,3 +44,4 @@ h1{
 
 input:checked + label {
     order: 2;
+}
