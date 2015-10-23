@@ -1,0 +1,46 @@
+body{
+  /*background-image: url("http://i.ytimg.com/vi/roTHJH3_URA/maxresdefault.jpg");*/
+  background-size: cover;
+  background-color: rgb(153, 0, 51);
+  background-repeat: no-repeat;
+}
+
+h1{
+  font-family: "avenir";
+}
+
+.row1{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  margin: 10px;
+  display: inline-block;
+}
+
+.row2{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  margin: 10px;
+  display: inline-block;
+}
+
+.row3{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  margin: 10px;
+  display: inline-block;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.done {
+    order: 1;
+}
+
+input:checked + label {
+    order: 2;
